@@ -1,0 +1,63 @@
+/************************************
+
+Stylesheet for SimpleGal Plugin
+
+Author: Daniel Theiss (dath)
+Author URI: http://www.dath.info/
+
+Version: 1.1
+
+*************************************/
+
+.clear {
+  display: block;
+  clear: left;
+}
+
+.simplegal {
+  margin: 0.25em 0 1em 0;
+  padding: 10px 0px 1px 0px;
+  list-style: none;
+  line-height: 0.5em;
+}
+
+.simplegal li {
+  display: table;  
+  width: 110px;
+  height: 110px;
+  margin: 0px 7px 7px 0px;
+  float: left;
+  line-height: 0.5em;
+  background-color: #eee;
+  content: none;
+  list-style: none;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.simplegal li:before {
+  content: none;
+}
+
+.simplegal li a {
+  display: table-cell;
+  margin: 0px;
+  padding: 3px;
+  border: 1px solid #dcdcdc;
+  color: #dcdcdc;
+  text-decoration: none;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.simplegal li a:hover {
+  border: 1px solid #222;
+}
+
+.simplegal img {
+  display: inline;
+  padding: 0px;
+  border: none;
+}
